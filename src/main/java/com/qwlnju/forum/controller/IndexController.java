@@ -1,6 +1,6 @@
-package com.qwlnju.froum.controller;
+package com.qwlnju.forum.controller;
 
-import com.qwlnju.froum.model.User;
+import com.qwlnju.forum.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

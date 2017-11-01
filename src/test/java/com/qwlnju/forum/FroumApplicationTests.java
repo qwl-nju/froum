@@ -1,4 +1,4 @@
-package com.qwlnju.froum;
+package com.qwlnju.forum;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

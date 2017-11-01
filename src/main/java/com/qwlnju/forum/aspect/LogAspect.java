@@ -1,4 +1,4 @@
-package com.qwlnju.froum.aspect;
+package com.qwlnju.forum.aspect;
 
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
@@ -13,11 +13,11 @@ import org.springframework.stereotype.Component;
 public class LogAspect {
     private static final Logger logger = LoggerFactory.getLogger(LogAspect.class);
 
-    @Before("execution(* com.qwlnju.froum.controller.IndexController.*(..))")
+    @Before("execution(* com.qwlnju.forum.controller.IndexController.*(..))")
     public void beforeMethod(){
         logger.info("before IndexController !");
     }
-    @After(("execution(* com.qwlnju.froum.controller.IndexController.*(..))"))
+    @After(("execution(* com.qwlnju.forum.controller.IndexController.*(..))"))
     public  void afterMethod(){
         logger.info("after IndexController!");
     }

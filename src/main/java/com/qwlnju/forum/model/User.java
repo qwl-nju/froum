@@ -1,4 +1,4 @@
-package com.qwlnju.froum.model;
+package com.qwlnju.forum.model;
 
 public class User {
     private String name;
