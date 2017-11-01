@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class IndexController {
 
-    @RequestMapping(path = {"/","/index"})
+    @RequestMapping(path = {"/","/index","/home"})
     public  String index(){
-        return "index";
+        return "home";
     }
 
     @RequestMapping(path = {"/profile/{id}"})
